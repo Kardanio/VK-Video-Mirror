@@ -2,6 +2,28 @@
 
 **Developed by Kardanio** · Version **1.0.0** · Manifest V3
 
+Расширение для горизонтального отражения видео VK без изменения кнопок и элементов управления плеером.
+
+[![Latest Release](https://img.shields.io/github/v/release/Kardanio/VK-Video-Mirror?label=Download&color=brightgreen)](https://github.com/Kardanio/VK-Video-Mirror/releases/latest)
+![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue)
+
+
+**[Скачать VK Video Mirror](https://github.com/Kardanio/VK-Video-Mirror/releases/latest)** · 
+**[Сообщить об ошибке](https://github.com/Kardanio/VK-Video-Mirror/issues)**
+
+### Быстрая установка
+
+1. Скачайте `VK-Video-Mirror-1.0.0-store.zip` из [последнего релиза](https://github.com/Kardanio/VK-Video-Mirror/releases/latest).
+2. Распакуйте архив в отдельную папку.
+3. Откройте страницу расширений браузера (`chrome://extensions`, `opera://extensions` или `browser://extensions`).
+4. Включите режим разработчика.
+5. Выберите «Загрузить распакованное расширение» и укажите папку с `manifest.json`.
+6. Откройте VK Video и нажмите иконку расширения, чтобы включить или выключить отражение.
+
+**Конфиденциальность:** расширение не собирает личные данные и не использует аналитику. [Политика конфиденциальности](https://kardanio.github.io/VK-Video-Mirror/privacy-policy.html).
+
+**Публикация:** версия 1.0.0 доступна на GitHub. Заявка в Opera Add-ons находится на модерации.
+
 Автор и бренд разработчика: **Kardanio**. GitHub: [github.com/Kardanio](https://github.com/Kardanio).
 
 VK Video Mirror включает и выключает горизонтальное отражение видео на сайтах VK по нажатию на иконку расширения. Отражаются только элементы `video` в открытом Shadow DOM. Отдельные кнопки, таймлайн и слои плеера не меняются.
@@ -11,7 +33,7 @@ VK Video Mirror включает и выключает горизонтальн�
 ## Файлы комплекта
 
 - `extension/` — готовая папка для локальной установки. В ней только manifest, два исходных JS и используемые иконки.
-- `VK-Video-Mirror-1.0.0-store.zip` — архив расширения для загрузки в магазин; manifest расположен в корне.
+- `VK-Video-Mirror-1.0.0-store.zip` — готовый архив расширения, доступный в [GitHub Releases](https://github.com/Kardanio/VK-Video-Mirror/releases/latest). `manifest.json` расположен в корне архива.
 - `STORE-LISTING-RU.md`, `STORE-LISTING-EN.md` — короткие и полные описания.
 - `PRIVACY.md`, `privacy-policy.html` — политика конфиденциальности на русском и английском; HTML можно разместить на публичном сайте.
 - `PUBLISHING.md` — порядок подачи, обоснования разрешений и заметки о правилах магазинов.
@@ -22,13 +44,12 @@ VK Video Mirror включает и выключает горизонтальн�
 
 ## Локальная установка
 
-1. Распакуйте полный комплект в постоянную папку.
+1. Скачайте архив из [GitHub Releases](https://github.com/Kardanio/VK-Video-Mirror/releases/latest) и распакуйте его в постоянную папку либо скачайте исходный код репозитория.
 2. Откройте `chrome://extensions` в Chrome. В Яндекс Браузере используйте `browser://extensions`, в Opera — `opera://extensions`.
 3. Включите «Режим разработчика» и нажмите «Загрузить распакованное расширение» / Load unpacked.
-4. Выберите папку **extension**, непосредственно содержащую `manifest.json`.
+4. Выберите папку, непосредственно содержащую `manifest.json`. Если скачали исходный код репозитория, выберите папку `extension/`.
 5. Закрепите иконку VK Video Mirror и обновите уже открытые страницы VK.
 
-Для установки только из `VK-Video-Mirror-1.0.0-store.zip` распакуйте этот архив в отдельную папку и выберите её на шаге 4. Не используйте кнопку «Упаковать расширение» для обычной локальной установки.
 
 ## Использование и ограничения
 
